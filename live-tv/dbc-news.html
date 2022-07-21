@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head data-cast-api-enabled="true">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>DBC News HD</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="shortcut icon" href="https://minhaz-0.github.io/online24-7/online24-7icon.png"/>
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/additional.css"/>
+
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/ionicons.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/socicon-styles.css"/>
+
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/hover-min.css"/>
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/animate.css"/>
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/styles.css"/>
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/responsive.css"/>
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/red.css"/>
+<script src="https://minhaz-0.github.io/online24-7/js/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/swiper.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/custom.css"/>
+<link href="https://minhaz-0.github.io/online24-7/css/video-js.css" rel="stylesheet" type="text/css"/>
+<link href="https://minhaz-0.github.io/online24-7/css/videojs-mobile-ui.css" rel="stylesheet" type="text/css"/>
+
+
+<script src="https://minhaz-0.github.io/online24-7/js/video.min.js" crossorigin="anonymous"></script>
+<script src="https://minhaz-0.github.io/online24-7/js/videojs-mobile-ui.min.js"></script>
+
+<link href="https://minhaz-0.github.io/online24-7/css/videojs-logo.min.css" rel="stylesheet"/>
+
+<link href="https://minhaz-0.github.io/online24-7/css/videojs-share.css" rel="stylesheet"/>
+
+<link href="https://minhaz-0.github.io/online24-7/css/videojs-seek-buttons.css" rel="stylesheet"/>
+
+<script src="https://minhaz-0.github.io/online24-7/js/silvermine-videojs-chromecast.min.js"></script>
+
+<link href="https://minhaz-0.github.io/online24-7/css/silvermine-videojs-chromecast.css" rel="stylesheet"/>
+
+<script type="text/javascript" src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
+
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/owl.carousel.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/owl-custom.css"/>
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/owl.theme.default.min.css"/>
+<script src="https://minhaz-0.github.io/online24-7/js/owl.carousel.js"></script>
+
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/auto-complete.css"/>
+
+<link rel="stylesheet" type="text/css" href="https://minhaz-0.github.io/online24-7/css/dark.css"/>
+<style type="text/css">
+    :root {
+        --swiper-theme-color: #ff0000;
+        --primary-color:#ff0000;
+        --secenday-color:#ff0009;
+      }
+    .owl-carousel .owl-next,.owl-carousel .owl-prev {
+        background-color: var(--primary-color);
+    }
+    a{
+        color:var(--primary-color);
+    }
+    a:hover{
+       color:var(--secenday-color); 
+    }
+    .vjs-chromecast-button .vjs-icon-placeholder {
+        width: 18px;
+        height: 18px;
+    }
+</style>
+<style type="text/css">
+    .ribbon {
+                width: 110px;
+        height: 80px;
+        overflow: hidden;
+        position: absolute;
+        background: url(https://minhaz-0.hithub.io/online24-7/online24-7icon.png);
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+    .ribbon-top-right {
+      bottom: 0px;
+      left: 0px;
+    }
+    .tv-ribbon{
+                top: 10px;
+        left: 5px;
+        position: absolute;
+        z-index: 6;
+        padding: 2px 11px;
+        background-color: #ffe22e;
+        color: #383737;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .modal-header{
+        background: var(--primary-color);
+        border-bottom: transparent;
+        color: #fff;
+    }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+<div id="main-content">
+<style type="text/css">
+    #myFooter {
+    background-color: #232323;
+    }
+    #myFooter .footer-copyright {
+        background-color: #151414;
+        
+    }
+</style>
+<nav class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="https://minhaz-0.github.io/online24-7/nidex.html"><img src="https://minhaz-0.github.io/online24-7/online24-7.png" alt="logo">
+</a>
+</div>
+<div class="collapse navbar-collapse" id="navbar1">
+<ul class="nav navbar-nav navbar-left">
+<li><a href="https://minhaz-0.github.io/online24-7/nidex.html">Home</a></li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#" >Others<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Movies&nbsp;<i class="fa fa-television" style="color:red;"> </i></a></li>
+<li><a href="#">Series&nbsp;<i class="fa fa-television" style="color:red;"> </i></a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">TV&nbsp;<span class="badge badge-danger" style="background-color: #d00202;">Live</span>
+<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="index.html">All Channels&nbsp;<i class="fa fa-television" style="color:red;"> </i></a></li>
+<li><a href="category/sports.html">Sports&nbsp;<i class="fa fa-television" style="color:red;"></i></a></li>
+<!--li><a href="#">Bengali&nbsp;<i class="fa fa-television" style="color:red;"></i></a></li-->
+<li><a href="category/bangladeshi.html">Bangladeshi&nbsp;<i class="fa fa-television" style="color:red;"></i></a></li>
+<li><a href="category/indian.html">Indian&nbsp;<i class="fa fa-television" style="color:red;"></i></a></li>
+<!--li><a href="#">International &nbsp;<i class="fa fa-television" style="color:red;"></i></a></li-->
+<li><a href="category/music.html">Music&nbsp;<i class="fa fa-television" style="color:red;"></i></a></li>
+</ul>
+</li>
+<li><a href="#" data-toggle="modal" data-target="#movieRequest">Request</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class="hidden-xs-down"><a href="#">Login</a></li>
+<li class="hidden-xs-down"><a href="#">Signup</a></li>
+<li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" style="text-transform: capitalize;">Language<span class="caret"></span></a>
+<ul class="dropdown-menu settings-menu dropdown-menu-right">
+<li><a class="dropdown-item" href="#">English</a></li>
+</ul>
+</li>
+
+</ul>
+<form class="navbar-form navbar-left" method="get" action="https://minhaz-0.github.io/online24-7/search/">
+<div class="input-group">
+<input type="text" name="q" value="" autocomplete="off" id="search-input" class="form-control" placeholder="Search..">
+<span class="input-group-btn">
+<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+</span>
+</form>
+</div>
+</div>
+</nav>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#search-input").autocomplete({
+        source: "",
+            focus: function( event, ui ) { 
+            return false;
+        },
+        select: function( event, ui ) {
+            window.location.href = ui.item.url;
+        }
+    }).data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+        var inner_html = '<a href="' + item.url + '" ><div class="list_item_container"><div class="image"><img src="' + item.image + '" ></div><div class="th-title"><b>' + item.title + '</b></div><br><div class="th-title">' + item.type + '</div></div></a>';
+        return $( "<li></li>" ).data( "item.autocomplete", item ).append(inner_html).appendTo( ul );
+    };
+});
+</script>
+
+<script>
+    $(".dropdown").hover(function () {
+        $(this).addClass("open");
+    },function () {
+        $(this).removeClass("open");
+    });       
+
+  $('.search_tools').click(function(){                    
+    $(".search").toggleClass('open');
+    if($(".search").hasClass("open")){
+      $(this).html('<a href="#"><span class="fa fa-close"></span></a>');
+    }else{
+      $(this).html('<a href="#"><span class="fa fa-search"></span></a>');
+    }
+  });
+</script>
+
+<style type="text/css">
+    .media-left img {
+        max-width: 138px !important;
+        max-height: 120px !important;
+    }
+</style>
+<div id="movie-details">
+<div class="container">
+
+<div class="row">
+<div class="col-md-12 col-sm-12">
+
+
+
+<div class="row">
+<div class="col-md-12">
+<div class="movie-payer">
+
+<script src="https://unpkg.com/videojs-flash/dist/videojs-flash.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.min.js"></script>
+<video id="play" class="video-js vjs-big-play-centered skin-red vjs-16-9" controls preload="none" width="640" height="265" poster="img/dbcnews.png" data-setup="{}">
+
+<p class="vjs-no-js">to_view_this_video_please_enable_javascript,_and_consider_upgrading_to_a_web_browser_that <a href="#" target="_blank">Supports html5 video</a></p>
+</video>
+<script>
+          var options;
+          options = {
+            "controls": true, 
+            "autoplay": true, 
+            "preload": "auto" ,
+            techOrder: [ 'chromecast', 'html5' ],
+            sources: [
+                { src: 'https://tempx.jagobd.com:444/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PT0mdFsaWRtaW51aiPhnPTI/dbcnews.stream/chunks.m3u8', type: ''}
+            ],
+            chromecast: {               
+                  requestTitleFn: function(source) { // Not required
+                    return 'DBC News HD ';
+                  },
+                  requestSubtitleFn: function(source) { // Not required
+                     return 'Watching Live TV';
+                  },
+                  requestCustomDataFn: function(source) { // Not required
+                     return {
+                        'live': false,
+                    }
+                  },
+                  requestPosterFn: function () {
+                    return [
+                        {
+                            'url': 'https://minhaz-0.github.io/online24-7/online24-7icon.png'
+                        }
+                    ];
+                }
+            },
+            plugins: {
+              chromecast: {
+                 customData: {
+                        live: false
+                    }
+              },
+            }
+          };
+          var ovoo_player = videojs('play', options);
+       </script>
+
+ <script src="https://minhaz-0.github.io/online24-7/js/videojs.hotkeys.min.js"></script>
+<script>    
+      ovoo_player.ready(function() {
+        this.hotkeys({
+          seekStep: 5
+        });
+      });
+    </script>
+
+</div>
+
+<div class="media row channel-title">
+<div class="media-left col-md-2 col-sm-12 col-xs-6">
+<img src="img/dbcnews.png" class="media-object"/>
+</div>
+<div class="col-md-6 col-sm-12 hidden-xs">
+<h5 class="media-heading">DBC News HD</h5>
+<div class="media-content">
+<p class="live">Watching live on ONLINE-24/7 | Watch Live TV, Movies, Series and More Online</p>
+</div>
+</div>
+<div class="media-right col-md-4 col-sm-12 col-xs-6">
+<div class="btn-group" style="float: right;">
+<a href="dbc-news.html" class="btn btn-sm btn-default">HD</a>
+</div>
+</div>
+</div>
+<style type="text/css">
+    .media:first-child {
+        margin-top: 20px;
+    }
+    .channel-title .media {
+        padding: 10px 0;
+    }
+    .media-left{
+        padding-right: 10px;
+    }
+    .channel-title .media-heading {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        padding-left: 16px;
+        color: #999;
+    }
+    .channel-title .media-content .live {
+        font-size: 15px;
+        line-height: 1.3;
+        vertical-align: middle;
+        position: relative;
+        display: inline;
+        padding-left: 10px;
+        color: #777;
+    }
+    .channel-title .media-content .live:before {
+        content: "\00B7";
+        color: red;
+        font-size: 60px;
+        vertical-align: middle;
+        position: relative;
+        display: inline;
+        line-height: 1;
+        padding-right: 10px;
+    }
+    .media-right {
+    display: table-cell;
+    vertical-align: top;
+    min-width: 30%;
+    width: 200px;
+    max-width: 50%;
+    float: right;
+}
+</style> </div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+</div>
+<!--all tv channel-->
+<div id="section-opt">
+<div class="container">
+<div class="row">
+<div class="col-md-12 col-sm-12">
+<div class="latest-movie movie-opt">
+<div class="movie-heading overflow-hidden"> <span>All TV Channels&nbsp;<i class="fa fa-television"></i></span>
+<div class="disable-bottom-line"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 col-sm-12">
+<div class="owl-carousel live_tv_owl">
+<div class="item">
+<figure class="figure">
+<a href="t-sports.html">
+<img class="owl-lazy" src="#" data-src="img/tsports.png" alt="T Sports HD" />
+<figcaption class="figure-caption ">T Sports HD</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="nexus.html">
+<img class="owl-lazy" src="#" data-src="img/nexus.png" alt="Nexus TV" />
+<figcaption class="figure-caption ">Nexus  TV</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="dbc-news.html">
+<img class="owl-lazy" src="#" data-src="img/dbcnews.png" alt="DBC News HD" />
+<figcaption class="figure-caption ">DBC News  HD</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="news-24.html">
+<img class="owl-lazy" src="#" data-src="img/news24.png" alt="News 24 HD" />
+<figcaption class="figure-caption ">News 24 HD</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="independent.html">
+<img class="owl-lazy" src="#" data-src="img/independent.png" alt="Independent" />
+<figcaption class="figure-caption ">Independent</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="jamuna-tv.html">
+<img class="owl-lazy" src="#" data-src="img/jamunatv.png" alt="Jamuna TV" />
+<figcaption class="figure-caption ">Jamuna TV</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="ekattor-tv.html">
+<img class="owl-lazy" src="#" data-src="img/ekattortv.png" alt="Ekattor TV" />
+<figcaption class="figure-caption ">Ekattor TV</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="maasranga-tv.html">
+<img class="owl-lazy" src="#" data-src="img/maasranga.png" alt="Maasranga TV" />
+<figcaption class="figure-caption ">Maasranga TV</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="channel-24.html">
+<img class="owl-lazy" src="#" data-src="img/channel24.png" alt="Channel 24" />
+<figcaption class="figure-caption ">Channel 24</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="nagorik-tv.html">
+<img class="owl-lazy" src="#" data-src="img/nagoriktv.png" alt="Nagorik TV" />
+<figcaption class="figure-caption ">Nagorik TV</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="somoy-tv.html">
+<img class="owl-lazy" src="#" data-src="img/somoytv.png" alt="Somoy TV" />
+<figcaption class="figure-caption ">Somoy TV</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+ <a href="asian-tv.html">
+<img class="owl-lazy" src="#" data-src="img/asiantv.png" alt="Asian TV" />
+<figcaption class="figure-caption ">Asian TV</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="rtv.html">
+<img class="owl-lazy" src="#" data-src="img/rtv.png" alt="RTV" />
+<figcaption class="figure-caption ">RTV</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="bangla-vision.html">
+<img class="owl-lazy" src="#" data-src="img/banglavision.png" alt="Bangla Vision" />
+<figcaption class="figure-caption ">Bangla Vision</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="my-tv.html">
+<img class="owl-lazy" src="#" data-src="img/my-tv.png" alt="My TV" />
+<figcaption class="figure-caption ">My TV</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="atn-bangla.html">
+<img class="owl-lazy" src="#" data-src="img/atnbangla.png" alt="ATN Bangla " />
+<figcaption class="figure-caption ">ATN Bangla </figcaption>
+ </a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="channel-i.html">
+<img class="owl-lazy" src="#" data-src="img/channel-i.png" alt="Channel I" />
+<figcaption class="figure-caption ">Channel I</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="bijoy-tv.html">
+<img class="owl-lazy" src="#" data-src="img/bijoytv.png" alt="Bijoy TV" />
+<figcaption class="figure-caption ">Bijoy TV</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="channel-9.html">
+<img class="owl-lazy" src="#" data-src="img/channel9.png" alt="Channel 9" />
+<figcaption class="figure-caption ">Channel 9</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="satv.html">
+<img class="owl-lazy" src="#" data-src="img/satv.png" alt="SA TV" />
+<figcaption class="figure-caption ">SA TV</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="deepto-tv.html">
+<img class="owl-lazy" src="#" data-src="img/deeptotv.png" alt="Deepto TV " />
+<figcaption class="figure-caption ">Deepto TV</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="zee-tv.html">
+<img class="owl-lazy" src="#" data-src="img/zeetv.png" alt="Zee TV" />
+<figcaption class="figure-caption ">Zee TV HD</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="zee-cinema.html">
+<img class="owl-lazy" src="#" data-src="img/zeecinemahd.png" alt="Zee Cinema HD" />
+<figcaption class="figure-caption ">Zee Cinema HD</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="star-plus.html">
+<img class="owl-lazy" src="#" data-src="img/starplus.png" alt="Star Plus" />
+<figcaption class="figure-caption ">Star Plus</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="sony-tv.html">
+<img class="owl-lazy" src="" data-src="img/sonytvhd.png" alt="Sony TV HD" />
+<figcaption class="figure-caption ">Sony TV HD</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="sony-max.html">
+<img class="owl-lazy" src="#" data-src="img/sonymaxhd.png" alt="Sony Max HD" />
+<figcaption class="figure-caption ">Sony Max HD</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="sony-ten-1.html">
+<img class="owl-lazy" src="" data-src="img/ten1.png" alt="Sony Ten 1" />
+<figcaption class="figure-caption ">Sony Ten 1</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="sony-ten-2.html">
+<img class="owl-lazy" src="#" data-src="img/ten2.png" alt="Sony Ten 2" />
+<figcaption class="figure-caption ">Sony Ten 2</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="sony-ten-3.html">
+<img class="owl-lazy" src="#" data-src="img/ten3.png" alt="Sony Ten 3" />
+<figcaption class="figure-caption ">Sony Ten 3</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="sony-six.html">
+<img class="owl-lazy" src="#" data-src="img/sonysix.png" alt="Sony Six" />
+<figcaption class="figure-caption ">Sony Six</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="star-sports-1.html">
+<img class="owl-lazy" src="#" data-src="img/starsports.png" alt="Star Sports 1" />
+<figcaption class="figure-caption ">Star Sports 1</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="ptv-sports.html">
+<img class="owl-lazy" src="#" data-src="img/ptvsports.png" alt="PTV Sports" />
+<figcaption class="figure-caption ">PTV Sports</figcaption>
+</a>
+</figure>
+</div>
+<div class="item"> 
+<figure class="figure">
+<a href="sangeet-bangla.html">
+<img class="owl-lazy" src="#" data-src="img/sangeetbangla.png" alt="Sangeet Bangla" />
+<figcaption class="figure-caption ">Sangeet Bangla</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="9xm.html">
+<img class="owl-lazy" src="#" data-src="img/9xm.png" alt="9xm" />
+<figcaption class="figure-caption ">9XM</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="show-box.html">
+<img class="owl-lazy" src="#" data-src="img/showbox.png" alt="Show Box" />
+<figcaption class="figure-caption ">Show Box</figcaption>
+</a>
+</figure>
+</div>
+ <div class="item">
+<figure class="figure">
+<a href="music-india.html">
+<img class="owl-lazy" src="#" data-src="img/musicindia.png" alt="Music India" />
+<figcaption class="figure-caption ">Music India</figcaption>
+</a>
+</figure>
+</div>
+<div class="item">
+<figure class="figure">
+<a href="bpl.html">
+<img class="owl-lazy" src="" data-src="img/bpl.jpeg" alt="BPL" />
+<figcaption class="figure-caption ">BPL</figcaption>
+</a>
+</figure>
+</div>
+</div>
+<script type="text/javascript">
+                    $('.live_tv_owl').owlCarousel({
+                        stagePadding: 0,
+                        /*the little visible images at the end of the carousel*/
+                        loop: true,
+                        rtl: false,
+                        lazyLoad: true,
+                        margin: 15,
+                        center: true,
+                        nav: true,
+                        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+                        dots: false,
+                        responsive: {
+                            0: {
+                                items: 3
+                            },
+                            600: {
+                                items: 4
+                            },
+                            800: {
+                                items: 6
+                            },
+                            1000: {
+                                items: 6
+                            },
+                            1200: {
+                                items: 8
+                            }
+                        }
+                    })
+                </script>
+</div>
+</div>
+</div>
+</div>
+<!--footer-->
+<div id="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-sm-6">
+<div class="footer-about  ">
+<div class="movie-heading"> <span>ABOUT &nbsp;<i class="fa fa-address-book"></i></span>
+<div class="disable-bottom-line"></div>
+</div>
+<img class="img-responsive" src="https://minhaz-0.github.io/online24-7/online24-7.png" alt="Logo">
+<p><span style="-webkit-text-size-adjust: 100%;">Watch Live TV, Latest Movies, Series and more....</span><br></p>
+</div>
+</div>
+<div class="col-md-4 col-sm-6">
+<div class="bottom-post ">
+<div class="movie-heading"> <span>JOIN US&nbsp;<i class="fa fa-sign-in"></i></span>
+<div class="disable-bottom-line"></div>
+</div>
+<a href="https://www.facebook.com/profile.php?id=100078848817286"><img src="https://minhaz-0.github.io/online24-7/f-join.png" alt="Join Us" border="0" style="width: 40%;"></a> </div>
+</div>
+<div class="col-md-4 col-sm-6">
+<div class="sendus  ">
+<div class="movie-heading"> <span>SUBSCRIBE&nbsp;<i class="fa fa-thumbs-up"></i></span>
+<div class="disable-bottom-line"></div>
+</div>
+<div id="contact-form">
+<div class="expMessage"></div>
+<p class="text-light">Subscribe to our mailing list to receive updates on movies, series and news.</p>
+<input type="text" name="formInput[name]" id="name" class="form-control half-wdth-field pull-right" placeholder="Your name" required>
+<input type="email" name="formInput[email]" id="email" class="form-control half-wdth-field pull-right" placeholder="Email" required>
+<div>
+<div id="error" style="display: none;"></div>
+<a class="btn btn-success" id="subscribe-btn">SUBSCRIBE </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="copyright">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 text-left">
+<p><span>&#169</span> ONLINE-247 Inc. 2022<br>Developer By : <a href="https://www.facebook.com/profile.php?id=100078848817286" class="fa" style="color:#c33;">Minhaz&nbsp;&nbsp;&nbsp;Hussain</a></p>
+</div>
+<div class="col-sm-6 text-right">
+<ul class="footer-list">
+<li><a href="https://minhaz-0.github.io/online24-7/live-tv/index.html">Live TV</a></li>
+<!--li><a href="http://banglaplex.site/tv-series.html">Series</a></li-->
+<li><a href="https://minhaz-0.github.io/online24-7/privacy-policy.html">Privacy Policy</a></li>
+<!--li><a href="http://banglaplex.site/dmca.html">DMCA</a></li-->
+<li><a href="https://minhaz-0.github.io/online24-7/contact-us.html">Contact Us</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).on('click', '#subscribe-btn', function() {
+        var email = $("#email").val();
+        var name = $("#name").val();
+        if(name==''){
+            name='New Subscriber';
+        }
+        var hasError = false;
+        var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+        if (email == '') {
+            var hasError = true;
+            $("#error").fadeIn();
+            $("#error").html('<p class="text-danger"><strong>Opps!!&nbsp;</strong>Email must not be blank.</p>');
+        } else if (!emailReg.test(email)) {
+            var hasError = true;
+            $("#error").html('<p class="text-danger">Enter a valid email address.</p>');
+        }
+
+        if (hasError != true) {
+            $.ajax({
+                type: 'POST',
+               
+                /*
+                url: 'http://banglaplex.site/user/subscribe',*/
+                data: "name="+name+"&email="+email,
+                dataType: 'json',
+                beforeSend: function() {
+                    $("#error").fadeOut();
+                    $("#subscribe-btn").html('Subscribing!!  Wait...');
+
+                },
+                success: function(response) {
+                    var subscribe_status = response.subscribe_status;
+                    if (subscribe_status == "success") {
+                        $("#error").fadeIn();
+                        $("#subscribe-btn").html('<i class="fa fa-check" aria-hidden="true"></i> &nbsp;Subscribed');
+                        $("#error").html('<p class="text-success"><strong>Well done!</strong> Subscription successful.</p>');
+                    }else if (subscribe_status == "exist"){
+                        $("#error").fadeIn();
+                        $("#subscribe-btn").html('Subscribe');
+                        $("#error").html('<p class="text-warning">You already subscribe us earlier.</p>');
+                    }else {
+                        $("#error").fadeIn();
+                        $("#subscribe-btn").html('Subscribe');
+                        $("#error").html('<p class="text-warning"><strong>Opps!</strong> Subscription Successfully But Confirmation Email not Send.</p>');
+                    }
+                }
+            });
+        }
+    });
+</script>
+
+<div id="movieRequest" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+<div class="modal-dialog">
+<div class="modal-content p-0 b-0">
+<div class="panel report-panel panel-color panel-primary">
+<div class="panel-heading">
+<button type="button" class="close m-t-5" data-dismiss="modal" aria-hidden="true">×</button>
+<h3 class="panel-title text-light">Movie Request</h3>
+</div>
+<div class="modal-body">
+<form action="#" class="form-horizontal group-border-dashed" enctype="multipart/form-data" id="report_form" method="post" accept-charset="utf-8">
+<div class="form-group">
+<label class="col-sm-3 control-label">Name</label>
+<div class="col-sm-9">
+<input name="name" type="text" class="form-control" rows="4" placeholder="Your Name" value="" required>
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-3 control-label">Email</label>
+<div class="col-sm-9">
+<input name="email" type="email" class="form-control" rows="4" placeholder="Your Email" value="" required>
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-3 control-label">Movie Name</label>
+<div class="col-sm-9">
+<input name="movie_name" type="text" class="form-control" rows="4" placeholder="Movie Name" required>
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-3 control-label">Message</label>
+<div class="col-sm-9">
+<textarea name="message" id="message" class="form-control" rows="4" placeholder="Write your message here"></textarea>
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-3 control-label"></label>
+<div class="col-sm-9">
+</div>
+</div>
+<div id="response"></div>
+</div>
+<div class="modal-footer">
+<div class="form-group">
+<div class="col-sm-offset-3 col-sm-9 m-t-15">
+<button type="submit" id="submit_btn" class="btn btn-sm btn-success waves-effect"><span class="btn-label"><i class="fa fa-paper-plane"></i></span>Send </button>
+<button type="" class="btn btn-sm btn-white m-l-5 waves-effect" data-dismiss="modal">Close </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</form>
+<script type="text/javascript" src="https://minhaz-0.github.io/online24-7/js/parsley.min.js"></script>
+<script>
+  jQuery(document).ready(function() {
+    $('form').parsley();
+  });
+</script>
+</div>
+</div>
+<script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.plugins.min.js"></script>
+<script type="text/javascript">
+        $(function() {
+            $('.lazy').lazy({
+                effect: "fadeIn",
+                effectTime: 1000
+            });
+        });
+    </script>
+<link href="https://minhaz-0.github.io/online24-7/css/sweetalert2.min.css" rel="stylesheet"/>
+
+
+<script src="https://minhaz-0.github.io/online24-7/js/ovoo.js"></script>
+<script src="https://minhaz-0.github.io/online24-7/js/bootstrap.min.js"></script>
+
+
+
+<script src="https://minhaz-0.github.io/online24-7/js/sweetalert2.min.js"></script>
+<script>
+        $(document).ready(function() {
+            var success_message = '';
+            var error_message = '';
+            if (success_message != '') {
+                swal('Success!',success_message,'success');
+            }
+            if (error_message != '') {
+                swal('Error!',error_message,'error');
+            }
+        });
+    </script>
+</body>
+</html>
